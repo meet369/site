@@ -1,0 +1,120 @@
+body{ 
+    background-color: #dbdbff;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.form{
+    width: 100%;
+    max-width: 32rem;
+    font-size: 18px;
+}
+
+.form textarea,
+.form button{
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+.form label{
+    color: #2D2D3B;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+input{
+    font: inherit;
+    width: 105.4%;
+    height: 3rem;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+    background-color: #8989bd;
+    color: #ffffff;
+    border-radius: 8px;
+    align-items: center;
+    transition: 1s;
+}
+
+input:focus,
+input:hover{
+    background-color: #5e5e85;
+    transition: 1s;
+}
+
+input:focus + span::after{
+    width: 105.4%;
+}
+
+.form textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+    background-color: #8989bd;
+    align-items: center;
+    color: #ffffff;
+}
+
+::placeholder{
+    color: white;
+}
+
+.form textarea{
+    min-height: 13rem;
+    resize: vertical;
+    align-items: center;
+    transition: 1s;
+}
+
+.form textarea:hover,
+.form textarea:focus{
+    outline: none;
+    border-color: #bdbdd8;
+    box-shadow: 0 0 0 3px #23232e96;
+    background-color: #5e5e85;
+    transition: 1s;
+}
+
+.form button{
+    height: 3rem;
+    width: 105.4%;
+    outline: none;
+    background: linear-gradient(120deg, #bebefa, #5e5e85, #bebefa);
+    background-size: 200%;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.form button:hover{
+    background-position: right;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #5e5e85;
+    width: 650px;
+    padding: 7px;
+}
