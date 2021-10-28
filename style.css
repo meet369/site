@@ -188,6 +188,7 @@ ul, ol{
     margin: auto;
     margin-top: auto;
     padding-top: 20px;
+    box-shadow: 0px 5px 15px #6d6d7c;
 }
 
 .div1 h2{
@@ -200,6 +201,14 @@ ul, ol{
     width: fit-content;
     padding-left: 7px;
     padding-right: 7px;
+    text-shadow: 1px 1px 0px #6d6d7c;
+    background: linear-gradient(#23232e, #54546d);
+}
+
+.div1 h2:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 1px #6d6d7c;
+    background: linear-gradient(#54546d, #23232e);
 }
 
 .div1 h3{
